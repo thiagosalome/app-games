@@ -13,4 +13,9 @@ Capa   | Aplicação
 ### Executando o projeto ###
 
 * Para executar um projeto em Titanium é necessário configurar o ambiente. Siga [esse tutorial](https://docs.axway.com/bundle/Titanium_SDK_allOS_en/page/titanium_sdk_getting_started.html) em caso de dúvidas
-* Adquira uma chave de API seguindo [esta documentação](https://developers.google.com/maps/documentation/javascript/get-api-key)
+* Adquira uma chave de API do IGDB [nesse link](https://www.igdb.com/api)
+* Adicione a chave de api do IGBD no arquivo network.js
+  ```javascript
+  const URL_BASE = "https://api-endpoint.igdb.com";
+  const USER_KEY = "[YOUR_API_KEY]";
+  const HEADER = "application/json";
