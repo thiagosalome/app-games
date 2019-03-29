@@ -1,4 +1,4 @@
-# app-maps #
+# app-games #
 
 Esse é uma aplicação de que utiliza a api do [Google Maps](https://developers.google.com/maps/documentation/?hl=pt-br) para definir o melhor trajeto de um ponto ao outro. Ela foi desenvolvida com framework [Titanium](https://www.appcelerator.com/mobile-app-development-products/) para o desenvolvimento.
 
